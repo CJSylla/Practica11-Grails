@@ -7,7 +7,7 @@
     <title>Practica11-Grails</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <link rel="stylesheet" href="/webjars/Practica11-Grails/2.4.0/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/webjars/AdminLTE/2.4.0/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="/webjars/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Ionicons -->

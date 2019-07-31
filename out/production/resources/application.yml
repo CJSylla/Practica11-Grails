@@ -2,7 +2,7 @@
 grails:
     profile: web
     codegen:
-        defaultPackage: practica13
+        defaultPackage: practica11
     spring:
         transactionManagement:
             proxies: false
