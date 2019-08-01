@@ -68,10 +68,12 @@
     </style>
 
 </head>
+
+
 <body class="hold-transition login-page">
+<div class="view" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg'); background-repeat: no-repeat; background-position: center; height: 100%;">
 <div class = "container">
     <div class="wrapper">
-
     <div class="login-box-body">
         <h3 class="form-signin-heading">Login</h3>
 
