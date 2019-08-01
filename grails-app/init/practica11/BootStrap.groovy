@@ -10,7 +10,7 @@ class BootStrap {
     def init = { servletContext ->
 
         def departamento = new Departamento( )
-        departamento.nombre = "NOse"
+        departamento.nombre = "Nada"
         departamento.save(flush: true, failOnError: true)
 
         def departamento2 = new Departamento( )
@@ -29,14 +29,11 @@ class BootStrap {
         categoria2.nombre = "Categoria 2"
         categoria2.save(flush: true, failOnError: true)
 
-        def contacto=new Contacto(nombre: "John",apellido: "Bien",puesto_de_trabajo: "NoSe",email: "bencoskt5@gmail.com", celular: "829532306847",telefono: "8294876735",categoria:categoria,departamentos: departamentos,direccion: "Valle verde").save(flush:true,failOnError:true)
-//        def contacto1=new Contacto(nombre: "John",apellido: "Bien",puesto_de_trabajo: "NoSe",email: "bencoskt5@gmail.com", celular: "829532306847",telefono: "8294876735",categoria:categoria,departamentos: departamentos,direccion: "Valle verde").save(flush:true,failOnError:true)
-//        def contacto2=new Contacto(nombre: "John",apellido: "Bien",puesto_de_trabajo: "NoSe",email: "bencoskt5@gmail.com", celular: "829532306847",telefono: "8294876735",categoria:categoria,departamentos: departamentos,direccion: "Valle verde").save(flush:true,failOnError:true)
-//        def contacto3=new Contacto(nombre: "John",apellido: "Bien",puesto_de_trabajo: "NoSe",email: "bencoskt5@gmail.com", celular: "829532306847",telefono: "8294876735",categoria:categoria,departamentos: departamentos,direccion: "Valle verde").save(flush:true,failOnError:true)
-//        def contacto4=new Contacto(nombre: "John",apellido: "Bien",puesto_de_trabajo: "NoSe",email: "bencoskt5@gmail.com", celular: "829532306847",telefono: "8294876735",categoria:categoria,departamentos: departamentos,direccion: "Valle verde").save(flush:true,failOnError:true)
+        def contacto=new Contacto(nombre: "CJ",apellido: "Sylla",puesto_de_trabajo: "Nada",email: "cjsylla93@gmail.com", celular: "8294564094",telefono: "8098064172",categoria:categoria,departamentos: departamentos,direccion: "Los Collados").save(flush:true,failOnError:true)
+       // def contacto1=new Contacto(nombre: "CJ",apellido: "Sylla",puesto_de_trabajo: "Nada",email: "cjsylla93@gmail.com", celular: "8294564094",telefono: "8098064172",categoria:categoria,departamentos: departamentos,direccion: "Los Collados").save(flush:true,failOnError:true)
 
 
-        Usuario usuario = Usuario.findByUsername("admin") ? null :new Usuario(username: "admin", password: "admin",departamento: departamento2).save(flush: true, failOnError: true)
+        Usuario usuario = Usuario.findByUsername("CJSylla") ? null :new Usuario(username: "admin", password: "123456",departamento: departamento2).save(flush: true, failOnError: true)
         if(usuario) {
             Perfil perfil = new Perfil(authority: "ROLE_ADMIN").save(flush: true, failOnError: true)
 

@@ -3,7 +3,7 @@
     </content>
 
     <content tag="encabezado">
-        <h1>Practica 13 TONTON</h1>
+        <h1>Practica 11</h1>
     </content>
 
     <content tag="contenido">

@@ -4,7 +4,7 @@
 <head>
     <meta charset="u0tf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Practica11-Grails</title>
+    <title>Practica 11</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <link rel="stylesheet" href="/webjars/AdminLTE/2.4.0/bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -62,7 +62,7 @@ desired effect
             <!-- mini logo for sidebar mini 50x50 pixels -->
             <span class="logo-mini"><b>G</b>FT</span>
             <!-- logo for regular state and mobile devices -->
-            <span class="logo-lg"><b>Practica11-Grails</b></span>
+            <span class="logo-lg"><b>Practica 11</b></span>
         </a>
 
         <!-- Header Navbar -->
