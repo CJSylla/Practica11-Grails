@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AdminLTE 2 | Log in</title>
+    <title>Practica11-Grails | Log in</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
@@ -68,10 +68,12 @@
     </style>
 
 </head>
+
+
 <body class="hold-transition login-page">
+<div class="view" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg'); background-repeat: no-repeat; background-position: center; height: 100%;">
 <div class = "container">
     <div class="wrapper">
-
     <div class="login-box-body">
         <h3 class="form-signin-heading">Login</h3>
 
