@@ -254,7 +254,7 @@ desired effect
             Anything you want
         </div>
         <!-- Default to the left -->
-        <strong>Copyright &copy; 2017-${new Date().format("yyyy")} <a href="#">Pasantía PUCMM</a>.</strong> Todos los derechos reservados
+        <strong>Copyright &copy;${new Date().format("yyyy")} <a href="#">PUCMM</a>.</strong> Todos los derechos reservados
     </footer>
 
     <!-- Control Sidebar -->
