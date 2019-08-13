@@ -4,7 +4,7 @@
 <head>
     <meta charset="u0tf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Practica 11</title>
+    <title>Practica11-Grails</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <link rel="stylesheet" href="/webjars/AdminLTE/2.4.0/bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -18,9 +18,9 @@
     <link rel="stylesheet" href="/webjars/AdminLTE/2.4.0/dist/css/skins/skin-red-light.css">
 
 
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
     <!-- Google Font -->
     <link rel="stylesheet"
@@ -62,7 +62,7 @@ desired effect
             <!-- mini logo for sidebar mini 50x50 pixels -->
             <span class="logo-mini"><b>G</b>FT</span>
             <!-- logo for regular state and mobile devices -->
-            <span class="logo-lg"><b>Practica 11</b></span>
+            <span class="logo-lg"><b>Practica11-Grails</b></span>
         </a>
 
         <!-- Header Navbar -->
@@ -149,59 +149,59 @@ desired effect
                         </span>
                     </a>
                     <ul class="treeview-menu">
-                            <li><a href="/categoria/create"><i class="fa fa-link"></i> <span>Crear nueva categoria</span></a></li>
-                            <li><a href="/categoria/index"><i class="fa fa-link"></i> <span>Listar Categorias</span></a></li>
+                        <li><a href="/categoria/create"><i class="fa fa-link"></i> <span>Crear nueva categoria</span></a></li>
+                        <li><a href="/categoria/index"><i class="fa fa-link"></i> <span>Listar Categorias</span></a></li>
                     </ul>
                 </li>
 
-    <li class="treeview">
-        <a href="#">
-            <i class="fa fa-laptop"></i>
-            <span>Departamento</span>
-            <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-            </span>
-        </a>
-        <ul class="treeview-menu">
-            <li><a href="/departamento/create"><i class="fa fa-link"></i> <span>Crear nuevo Departamento</span></a></li>
-            <li><a href="/departamento/index"><i class="fa fa-link"></i> <span>Listar Departamentos</span></a></li>
-            <li><a href="/departamento/charts"><i class="fa fa-link"></i> <span>Charts</span></a></li>
-            <li><a href="/departamento/agregarUsuario"><i class="fa fa-link"></i> <span>Agregar Usuario</span></a></li>
-        </ul>
-    </li>
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-laptop"></i>
+                        <span>Departamento</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li><a href="/departamento/create"><i class="fa fa-link"></i> <span>Crear nuevo Departamento</span></a></li>
+                        <li><a href="/departamento/index"><i class="fa fa-link"></i> <span>Listar Departamentos</span></a></li>
+                        <li><a href="/departamento/charts"><i class="fa fa-link"></i> <span>Charts</span></a></li>
+                        <li><a href="/departamento/agregarUsuario"><i class="fa fa-link"></i> <span>Agregar Usuario</span></a></li>
+                    </ul>
+                </li>
 
 
-    <li class="treeview">
-        <a href="#">
-            <i class="fa fa-laptop"></i>
-            <span>Contacto</span>
-            <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-            </span>
-        </a>
-        <ul class="treeview-menu">
-            <li><a href="/contacto/create"><i class="fa fa-link"></i> <span>Crear nuevo Contacto</span></a></li>
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-laptop"></i>
+                        <span>Contacto</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li><a href="/contacto/create"><i class="fa fa-link"></i> <span>Crear nuevo Contacto</span></a></li>
 
-            <li><a href="/contacto/index"><i class="fa fa-link"></i> <span>Listar Contactos</span></a></li>
-            %{--</sec:ifAnyGranted>--}%
-        </ul>
-    </li>
+                        <li><a href="/contacto/index"><i class="fa fa-link"></i> <span>Listar Contactos</span></a></li>
+                        %{--</sec:ifAnyGranted>--}%
+                    </ul>
+                </li>
 
-    <li class="treeview">
-        <a href="#">
-            <i class="fa fa-laptop"></i>
-            <span>Usuario</span>
-            <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-            </span>
-        </a>
-        <ul class="treeview-menu">
-            <li><a href="/usuarioCrear/create"><i class="fa fa-link"></i> <span>Crear nuevo Usuario</span></a></li>
-            %{--</sec:ifAnyGranted>--}%
-            <li><a href="/usuarioCrear/index"><i class="fa fa-link"></i> <span>Listar Usuario</span></a></li>
-            %{--</sec:ifAnyGranted>--}%
-        </ul>
-    </li>
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-laptop"></i>
+                        <span>Usuario</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li><a href="/usuarioCrear/create"><i class="fa fa-link"></i> <span>Crear nuevo Usuario</span></a></li>
+                        %{--</sec:ifAnyGranted>--}%
+                        <li><a href="/usuarioCrear/index"><i class="fa fa-link"></i> <span>Listar Usuario</span></a></li>
+                        %{--</sec:ifAnyGranted>--}%
+                    </ul>
+                </li>
 
             </ul>
             <!-- /.sidebar-menu -->
@@ -254,7 +254,7 @@ desired effect
             Anything you want
         </div>
         <!-- Default to the left -->
-        <strong>Copyright &copy;${new Date().format("yyyy")} <a href="#">PUCMM</a>.</strong> Todos los derechos reservados
+        <strong>Copyright &copy; ${new Date().format("yyyy")} <a href="#">PUCMM</a>.</strong> Todos los derechos reservados
     </footer>
 
     <!-- Control Sidebar -->
